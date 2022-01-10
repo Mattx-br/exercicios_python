@@ -75,6 +75,7 @@ print("tua média é:", round(media/4, 3))'''
 # else:
 #   print('seu sexo esta no LGBTQ')
 
+# 0️⃣1️⃣1️⃣
 '''Faça um Programa que leia três números e mostre-os em ordem decrescente. '''
 '''n1 = float(input('n1: '))
 n2 = float(input('n2: '))
@@ -82,6 +83,7 @@ n3 = float(input('n3: '))
 lista = [n1, n2, n3]
 print(sorted(lista, reverse=True))'''
 
+# 0️⃣1️⃣2️⃣
 '''As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
     # Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
     # salários até R$ 280,00 (incluindo) : aumento de 20%
@@ -98,6 +100,7 @@ if sal <= 280:
   new = sal + au
   print(sal,',', 0.2,',', au,',', new)'''
 
+# 0️⃣1️⃣3️⃣
 '''TREINO'''
 #ar = float(input('digite um numero'))
 #i = 0
@@ -117,6 +120,12 @@ if sal <= 280:
 #       x = x - 1
 # print("fim")
 
+'''TREINO'''
+#nesse caso, vai imprimir o b
+#lista = ['a','b','c']
+#print(lista[1])
+
+# 0️⃣1️⃣4️⃣
 '''Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
 salário bruto.
 quanto pagou ao INSS.
@@ -149,18 +158,15 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.'''
 #else:
 #  print(round(b, 3))
 
-'''TREINO'''
-#nesse caso, vai imprimir o b
-#lista = ['a','b','c']
-#print(lista[1])
 
-
+# 0️⃣1️⃣5️⃣
 '''Faça um Programa que peça dois números e imprima o maior deles.'''
 #a = float(input('digite um num: '))
 #b = float(input('digite outro num: '))
 #lista = [a,b]
 #print(round(max(lista),3))
 
+# 0️⃣1️⃣6️⃣
 '''Faça um Programa que verifique se uma letra digitada é vogal ou consoante.'''
 #minha versão
 #z = str(input('escreva uma letra: '))
@@ -170,6 +176,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.'''
 #else:
 #  print('essa letra é consoante')
 
+# 0️⃣1️⃣7️⃣
 '''Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
 A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
 A mensagem "Reprovado", se a média for menor do que sete;
@@ -185,6 +192,7 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.'''
 #else:
 #  print('reprovado')
 
+# 0️⃣1️⃣8️⃣
 '''Faça um Programa que leia três números e mostre o maior deles.'''
 #a = float(input('digite um num: '))
 #b = float(input('digite outro num: '))
@@ -192,6 +200,7 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.'''
 #lista = [a, b, c]
 #print(max(lista))
 
+# 0️⃣1️⃣9️⃣
 '''Faça um Programa que leia três números e mostre o maior e o menor deles.'''
 #a = float(input('digite um num: '))
 #b = float(input('digite outro num: '))
@@ -200,6 +209,7 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.'''
 #print(max(lista))
 #print(min(lista))
 
+# 0️⃣2️⃣0️⃣
 '''Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.'''
 #p1 = float(input('informe o preço do produto 1: '))
 #p2 = float(input('informe o preço do produto 2: '))
