@@ -230,6 +230,7 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.'''
 #lista.sort(reverse=True)
 #print(lista)
 
+# 0️⃣2️⃣1️⃣
 '''Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.'''
 #x = str.lower((input("qual horario você estuda:\n M para matutino\n V para vespertino\n N para noturno\n ")))
 #if x == 'm':
@@ -239,6 +240,7 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.'''
 #else:
 #  print('Boa noite')
 
+# 0️⃣2️⃣2️⃣
 '''Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os descontos. O programa deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês.
 Desconto do IR:
 Salário Bruto até 900 (inclusive) - isento
@@ -273,6 +275,7 @@ Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações,
 #print('Desconto:',desc)
 #print('Salario Liquido:',sl)
 
+# 0️⃣2️⃣3️⃣
 '''Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.'''
 #x = int(input('informe um num para saber o dia da semana: '))
 #lista = ['null', 'domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado']
@@ -293,7 +296,7 @@ Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações,
 #else:
 #  print('numero inválido')
 
-
+# 0️⃣2️⃣4️⃣
 '''Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
   Média de Aproveitamento  Conceito
   Entre 9.0 e 10.0        A
@@ -332,6 +335,7 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 #  print('conceito: E  ')
 #  print('REPROVADO')
 
+# 0️⃣2️⃣5️⃣
 '''Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
 Dicas:
 Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
@@ -354,7 +358,7 @@ Triângulo Escaleno: três lados diferentes;'''
 # else:
 #  print('não é um triângulo.')
 
-
+# 0️⃣2️⃣6️⃣
 '''Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo: '''
 # while True:
 #   try:
@@ -368,6 +372,8 @@ Triângulo Escaleno: três lados diferentes;'''
 #     opt = str(input('\nDigite R para reiniciar')).upper()
 #     if opt != 'R':
 #       break
+
+# 0️⃣2️⃣7️⃣
 '''Numa eleição existem três candidatos. Faça um programa que peça o número total de eleitores. Peça para cada eleitor votar e ao final mostrar o número de votos de cada candidato. '''
 # while True:
 #   try:
@@ -397,6 +403,7 @@ Triângulo Escaleno: três lados diferentes;'''
 #     if restart != '':
 #       break
 
+# 0️⃣2️⃣8️⃣
 '''Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120. A saída deve ser conforme o exemplo abaixo: 
 Fatorial de: 5
 5! =  5 . 4 . 3 . 2 . 1 = 120'''
@@ -412,12 +419,12 @@ Fatorial de: 5
 #   fato -= 1
 # print('1 =', tt)
 
+# 0️⃣2️⃣9️⃣
 '''Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.
 Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:
 326 = 3 centenas, 2 dezenas e 6 unidades
 12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
 '''
-
 '''numero = input("digite um numero menor que 1000 ---> ")
 qtNumero = len(numero)
 centena = numero[0:1]
@@ -444,6 +451,7 @@ while True:
       if restart != '':
         break'''
 
+# 0️⃣3️⃣0️⃣
 '''Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
   Média de Aproveitamento  Conceito
   Entre 9.0 e 10.0        A
@@ -464,6 +472,7 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 #       nota_letra = conceitos[i][j+1]
 #       conceito_final = conceitos[i][j]
 
+# 0️⃣3️⃣1️⃣
 '''Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 Álcool:
 até 20 litros, desconto de 3% por litro
@@ -492,6 +501,7 @@ acima de 20 litros, desconto de 6% por litro Escreva um algoritmo que leia o nú
 # elif tipo == 'G':
 #   print((l * 2.5) - lista[1])
 
+# 0️⃣3️⃣2️⃣
 '''Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 a) o produto do dobro do primeiro com metade do segundo .
 b) a soma do triplo do primeiro com o terceiro.
@@ -508,6 +518,7 @@ c) o terceiro elevado ao cubo.'''
 # print ('a soma do triplo do primeiro com o terceiro:{0:>10}{1}'.format(nd, triplo))
 # print ('o terceiro elevado ao cubo:{0:>28}{1}'.format(nd, cubo))
 
+# 0️⃣3️⃣3️⃣
 '''treino com .format()'''
 
 # s = 'Adoro Python'
